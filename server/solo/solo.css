@@ -1,0 +1,17 @@
+* {
+    text-align: center;
+}
+
+body {
+    background: darkgray;
+}
+
+canvas {
+    margin-top: 5%;
+}
+
+.title {
+    font-family: 'Brush Script MT', cursive;
+    font-size: 50px;
+    margin-top: 5%;
+}
