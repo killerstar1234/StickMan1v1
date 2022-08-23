@@ -15,7 +15,7 @@ app.get('/api/solo', (req, res) => {
     res.sendFile(path.join(__dirname, './solo/solo.html'))
     })
 
-app.get('/favicon.ico', (req, res) => {
+app.get('/api/favicon.ico', (req, res) => {
     res.sendFile(path.join(__dirname, './favicon.ico'));
 })
     
