@@ -10,6 +10,10 @@ let room = 1;
 
 let whoThere = 0;
 
+app.get('/', (req, res) => {
+    res.send('This is the Stick Man API!')
+})
+
 
 app.get('/api/solo', (req, res) => {
     res.sendFile(path.join(__dirname, './solo/solo.html'))
